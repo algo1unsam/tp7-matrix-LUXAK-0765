@@ -8,6 +8,8 @@ object morfeo {
         return pesoTotal
     }
 
+}object trinity {
+    
 }
 
 object camion {
@@ -27,8 +29,11 @@ object monopatin {
 
 object puente {
     method dejarPasar(persona){
-        return persona.peso() < 1000 and paquete.pago()==true
+        return persona.peso() < 1000 and paquete.pago()
     }
+}
+object matrix {
+  
 }
 
 object paquete {
@@ -36,7 +41,9 @@ object paquete {
     var property destino = puente
 
     method pagar(){
+
         pago = true
+        
     }
 
     method estaPago(){
